@@ -16,10 +16,12 @@ end
 
 def remove_element_from_end_of_array(array)
   array.pop("arrays!")
+  p array
 end
 
 def remove_element_from_start_of_array(array)
-  array.shift("wow") 
+  array.shift("wow")
+  p array
 end
 
 def retrieve_element_from_index(array, index_number)
